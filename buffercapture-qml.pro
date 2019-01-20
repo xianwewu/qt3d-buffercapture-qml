@@ -1,4 +1,4 @@
-!include( ../manual.pri ) {
+!include( ./manual.pri ) {
     error( "Couldn't find the manual.pri file!" )
 }
 
