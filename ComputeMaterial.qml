@@ -72,7 +72,7 @@ Material {
                         shaderProgram: computeShader
                         // We set the buffer as the parameter data
                         parameters: [
-                            Parameter { name: "input"; value: dataBuffer }
+                            Parameter { name: "inputRenamed"; value: dataBuffer }
                         ]
                     }
                 ]
